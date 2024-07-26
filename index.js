@@ -9,4 +9,4 @@ const app = express()
 app.use(express.json())
 app.use('/',appRoutes)
 
-app.listen(PORT,()=>console.log(`App listering ${PORT}`))
+app.listen(PORT,()=>console.log(`App listening ${PORT}`))
